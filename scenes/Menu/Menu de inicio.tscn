@@ -1,0 +1,137 @@
+[gd_scene load_steps=5 format=3 uid="uid://dahh3cwl38nqt"]
+
+[ext_resource type="Texture2D" uid="uid://bsf6a06n8bc2" path="res://Imagenes/Captura de pantalla 2023-10-12 171014.png" id="1_8wbmw"]
+[ext_resource type="Texture2D" uid="uid://dus3yie43xjb4" path="res://Imagenes/Captura de pantalla 2023-10-12 171946.png" id="2_lt2gg"]
+[ext_resource type="Texture2D" uid="uid://cqaork30mm45t" path="res://Imagenes/Captura de pantalla 2023-10-12 171232.png" id="3_vvug7"]
+[ext_resource type="FontFile" uid="uid://cykglbllly3oc" path="res://FUENTE/kenney_kenney-fonts/Fonts/Kenney Blocks.ttf" id="4_5cmb2"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_right = 1600.0
+offset_bottom = 900.0
+texture = ExtResource("1_8wbmw")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 50.0
+offset_top = 50.0
+offset_right = -50.0
+offset_bottom = -50.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 0
+texture = ExtResource("2_lt2gg")
+
+[node name="Label" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="TextureRect2" type="TextureRect" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+texture = ExtResource("3_vvug7")
+
+[node name="ESPACIO1" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+text = "                                                                                                          "
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="ESPACIO2" type="Label" parent="VBoxContainer/VBoxContainer2"]
+layout_mode = 2
+text = "
+
+                     
+
+
+
+
+                                                                "
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer/VBoxContainer2"]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Button" type="Button" parent="VBoxContainer/VBoxContainer2/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_fonts/font = ExtResource("4_5cmb2")
+theme_override_font_sizes/font_size = 50
+text = "INCIAR"
+flat = true
+
+[node name="ESPACIO" type="Label" parent="VBoxContainer/VBoxContainer2/HBoxContainer"]
+layout_mode = 2
+text = "                                                                                                          "
+
+[node name="Button2" type="Button" parent="VBoxContainer/VBoxContainer2/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_fonts/font = ExtResource("4_5cmb2")
+theme_override_font_sizes/font_size = 50
+text = "CARGAR"
+flat = true
+
+[node name="ESPACIO" type="Label" parent="VBoxContainer/VBoxContainer2"]
+layout_mode = 2
+text = "                                                                                                          "
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="VBoxContainer/VBoxContainer2"]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Button3" type="Button" parent="VBoxContainer/VBoxContainer2/HBoxContainer2"]
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_fonts/font = ExtResource("4_5cmb2")
+theme_override_font_sizes/font_size = 50
+text = "EXTRAS"
+flat = true
+
+[node name="ESPACIO" type="Label" parent="VBoxContainer/VBoxContainer2/HBoxContainer2"]
+layout_mode = 2
+text = "                                                                                      "
+
+[node name="Button4" type="Button" parent="VBoxContainer/VBoxContainer2/HBoxContainer2"]
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_fonts/font = ExtResource("4_5cmb2")
+theme_override_font_sizes/font_size = 50
+text = "CONT."
+flat = true
+
+[node name="ESPACIO2" type="Label" parent="VBoxContainer/VBoxContainer2/HBoxContainer2"]
+layout_mode = 2
+text = "                                                                                      "
+
+[node name="Button5" type="Button" parent="VBoxContainer/VBoxContainer2/HBoxContainer2"]
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_fonts/font = ExtResource("4_5cmb2")
+theme_override_font_sizes/font_size = 50
+text = "SALIR"
+flat = true
+
+[node name="CapturaDePantalla2023-10-12171946" type="Sprite2D" parent="."]
+position = Vector2(277, 69)
+scale = Vector2(1.53642, 1.37209)
+texture = ExtResource("2_lt2gg")
+
+[node name="CapturaDePantalla2023-10-12171232" type="Sprite2D" parent="."]
+position = Vector2(797.375, 406)
+scale = Vector2(1.99371, 1.81655)
+texture = ExtResource("3_vvug7")
