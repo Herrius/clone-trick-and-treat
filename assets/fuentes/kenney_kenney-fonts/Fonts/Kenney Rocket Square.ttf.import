@@ -3,12 +3,12 @@
 importer="font_data_dynamic"
 type="FontFile"
 uid="uid://ckl8y4p6pbd37"
-path="res://.godot/imported/Kenney Rocket Square.ttf-63ddae060e1385ad97b031c3eade58f7.fontdata"
+path="res://.godot/imported/Kenney Rocket Square.ttf-33f8ce414097c7088e186f39105cca78.fontdata"
 
 [deps]
 
-source_file="res://FUENTE/kenney_kenney-fonts/Fonts/Kenney Rocket Square.ttf"
-dest_files=["res://.godot/imported/Kenney Rocket Square.ttf-63ddae060e1385ad97b031c3eade58f7.fontdata"]
+source_file="res://assets/fuentes/kenney_kenney-fonts/Fonts/Kenney Rocket Square.ttf"
+dest_files=["res://.godot/imported/Kenney Rocket Square.ttf-33f8ce414097c7088e186f39105cca78.fontdata"]
 
 [params]
 

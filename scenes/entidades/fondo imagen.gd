@@ -9,8 +9,10 @@ func _init_():
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
+	cambiar_fondo(bg)
+
+func cambiar_fondo(bg):
 	if (bg=="bosque"):
 		texture=load("res://assets/imagenes/fondo bosque.png")
 	else:
 		texture=load("res://assets/imagenes/fondo nubes.png")
-
