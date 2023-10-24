@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://btrm2rbf0xb5t"]
+
+[ext_resource type="Texture2D" uid="uid://d13rfn2bvgdxb" path="res://assets/personajes/main_a__1_-removebg-preview.png" id="1_kkn13"]
+[ext_resource type="Script" path="res://scenes/entidades/personaje.gd" id="2_jai04"]
+
+[node name="personaje" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(210, 309)
+texture = ExtResource("1_kkn13")
+script = ExtResource("2_jai04")
