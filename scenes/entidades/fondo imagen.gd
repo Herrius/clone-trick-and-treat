@@ -12,7 +12,7 @@ func _process(delta):
 	cambiar_fondo(bg)
 
 func cambiar_fondo(bg):
-	if (bg=="bosque"):
+	if (bg=="bosque"):	
 		texture=load("res://assets/imagenes/fondo bosque.png")
 	else:
 		texture=load("res://assets/imagenes/fondo nubes.png")
